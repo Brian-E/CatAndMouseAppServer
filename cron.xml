@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+	<cron>
+		<url>/cron/playercleanup</url>
+		<description>Player Cleanup Task</description>
+		<schedule>every 15 minutes</schedule>
+	</cron>
+	<cron>
+		<url>/cron/gamecleanup</url>
+		<description>Game Cleanup Task</description>
+		<schedule>every 5 minutes</schedule>
+	</cron>
+<!-- 	
+	<cron>
+		<url>/cron/notificationcleanup</url>
+		<description>Notification Cleanup</description>
+		<schedule>every 15 minutes</schedule>
+	</cron>
+ -->	
+</cronentries>

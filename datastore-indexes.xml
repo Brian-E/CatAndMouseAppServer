@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+  autoGenerate="true">
+<datastore-index kind="Notification" ancestor="false">
+        <property name="gameNumber" direction="asc"/>
+        <property name="intendedPlayerId" direction="asc"/>
+        <property name="activityDate" direction="asc"/>
+    </datastore-index>  
+</datastore-indexes>
